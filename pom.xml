@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>siva</groupId>
     <artifactId>AVAPROJ</artifactId>
-    <version>3.1</version>
+    <version>4.1</version>
     <packaging>war</packaging>
-    <name>freeproj</name>
+    <name>jenproj</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -42,7 +42,7 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-    	<finalName>freeproj</finalName>
+    	<finalName>jenproj</finalName>
         <pluginManagement>
             <plugins>
 <plugin>
@@ -52,7 +52,7 @@
 	<configuration>
 		<url>http://localhost:8080/manager/text</url>
 		<server>tomcat1</server>
-		<path>/freeproj</path>
+		<path>/jenproj</path>
 	</configuration>
 </plugin>
                 <plugin>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>SATHYA</groupId>
-    <artifactId>MYPROJECT</artifactId>
-    <version>5.5</version>
+    <groupId>siva</groupId>
+    <artifactId>AVAPROJ</artifactId>
+    <version>3.1</version>
     <packaging>war</packaging>
-    <name>myproj</name>
+    <name>freeproj</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -33,16 +33,16 @@
         <repository>
             <id>nexus</id>
             <name>Internal Releases</name>
-            <url>http://35.231.226.62:8081/repository/maven-releases/</url>
+            <url>http://35.237.89.123:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://35.231.226.62:8081/repository/maven-snapshots/</url>
+            <url>http://35.237.89.123:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
-    	<finalName>myproj</finalName>
+    	<finalName>freeproj</finalName>
         <pluginManagement>
             <plugins>
 <plugin>
@@ -51,8 +51,8 @@
 	<version>2.2</version>
 	<configuration>
 		<url>http://localhost:8080/manager/text</url>
-		<server>appserver</server>
-		<path>/myproj</path>
+		<server>tomcat1</server>
+		<path>/freeproj</path>
 	</configuration>
 </plugin>
                 <plugin>
